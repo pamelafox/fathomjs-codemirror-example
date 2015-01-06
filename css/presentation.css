@@ -147,7 +147,7 @@ table {
 }
 
 /** Slide formatting **/
-div.slide {
+.slide {
 	-webkit-box-shadow: 0 0 50px #c0c0c0;
 	-moz-box-shadow: 0 0 50px #c0c0c0;
 	box-shadow: 0 0 50px #c0c0c0;
@@ -165,19 +165,19 @@ div.slide {
   background: white;
 }
 
-div.inactiveslide {
+.inactiveslide {
 	opacity: 0.4;
 }
-div.activeslide {
+.activeslide {
 	opacity: 1;
 }
 
-div.slide h3 {
+.slide h3 {
   margin-top: 25px;
   margin-bottom: 5px;
 }
 
-div.slide p.footer {
+.slide p.footer {
 	bottom: 20px;
 	color: #404040;
 	font-size: 26px;
@@ -186,16 +186,16 @@ div.slide p.footer {
 	width: 100%;
 }
 
-div.slide marquee {
+.slide marquee {
   font-size: 36px;
   color: red;
 }
 
-div.slide p {
+.slide p {
   font-size: 24px;
 }
 
-div.slide h1 {
+.slide h1 {
   color: white;
   font-size: 34pt;
   margin-bottom: 14px;
@@ -207,15 +207,15 @@ div.slide h1 {
   margin-bottom: 20px;
 }
 
-div.slide h1  a {
+.slide h1  a {
   color: white;
 }
 
-div.slide ul {
+.slide ul {
 	padding: 60px;
 }
 
-div.slide ul li {
+.slide ul li {
 	color: #121B28;
 	font-size: 22pt;
 	font-weight: normal;
@@ -225,14 +225,14 @@ div.slide ul li {
 	text-align: left;
 }
 
-div.slide .run-button {
+.slide .run-button {
   float: right;
   margin-top: 10px;
   margin-right: 5px;
   margin-bottom: 6px;
 }
 
-div.slide .notes {
+.slide .notes {
   display: none;
   background-color: #CCC;
   z-index: 99999;
@@ -245,7 +245,7 @@ div.slide .notes {
   padding: 6px;
 }
 
-div.slide .image-bordered {
+.slide .image-bordered {
   border: 2px solid black;
   margin-bottom: 15px;
 }
